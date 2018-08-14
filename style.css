@@ -3,7 +3,7 @@ body {
   font-family: "FreeMono Oblique", monospace;
   text-align: center;
   border: 4px groove #ad5f2f;
-  position: relative;
+  position: fixed;
   margin: 30px 400px;
 }
 
@@ -12,7 +12,6 @@ body {
   margin: 20px;
   border-radius: 5px;
   padding: 3px 15px ;
-
 }
 
 #display {
