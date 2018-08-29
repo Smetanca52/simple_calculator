@@ -1,22 +1,24 @@
+
 body {
   background-color: #046e99;
-  font-family: "FreeMono Oblique", monospace;
-  text-align: center;
-  border: 4px groove #ad5f2f;
-  position: fixed;
-  margin: 30px 400px;
 }
 
 .canvas {
   background-color: #632a06;
-  margin: 20px;
   border-radius: 5px;
   padding: 3px 15px ;
+  border: 4px groove #ad5f2f;
+  text-align: center;
+  font-family: "FreeMono Oblique", monospace;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;;
+  width: 26em;
 }
 
 #display {
   background-color: #efe7e1;
-  margin: 5px 59px;
+  margin: 5px;
   font-size: 30px;
   height: 35px;
   text-align: right;
@@ -34,7 +36,6 @@ body {
   float: inherit;
   border: 1px solid black;
   width: 95px;
-  display: run-in;
 }
 
 .buttons:hover {
@@ -55,5 +56,5 @@ body {
   text-align: center;
   color: #00000;
   font-variant: small-caps;
-  font-size: 18px;
+  margin-top: 1rem;
 }
